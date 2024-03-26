@@ -1,0 +1,220 @@
+// .backk{
+//     img{
+//         width: 100vh;
+//         height: 100vh;
+//     }
+// }
+
+.login_header{
+    background-image: url('../../Assets/backgr.png');
+    width: 100%;
+    height: 549px;
+    background-repeat: no-repeat;
+    background-position: 100%, 100%;    
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover  ;
+}
+.sign__up{
+    h3{
+        margin-top: 151px;  
+        text-align: center; 
+font-size: 48px;
+line-height: 56px;
+color: white;
+height: 65px;
+    }
+    p{
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+}
+.container{
+    .dash{
+        margin-top: 18px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        .nav__link{
+            display: flex;
+            gap: 20px;
+            .link{
+                color: white;
+                display: flex;
+                text-decoration: none;
+            }
+        }
+        button{
+            padding-top: 8px;
+            padding-left: 32px;
+            padding-right: 32px;
+            cursor: pointer;
+            background-color: white;
+            border: none;
+            border-radius: 25px;
+            h2{
+                text-align: center;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0em;
+    
+            }
+    }
+    }
+}
+
+
+// .sign__in{
+//     padding-left: 533px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .login__in{
+   
+//     background-color: white;
+//     margin-top: 180px;
+//     width: 453px;
+//     height: 614px;
+//     border-radius: 20px;
+//     -webkit-border-radius: 20px;
+//     -moz-border-radius: 20px;
+//     -ms-border-radius: 20px;
+//     -o-border-radius: 20px;
+    
+// }
+// .or{
+//     margin-top: 20px;
+//     color: #A0AEC0;
+// }
+
+// .login__with{
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     h3{
+//         text-align: center;
+//         padding-top: 45px;
+//         font-size: 18px;
+//         font-weight: 700;
+//         line-height: 25px;
+//         letter-spacing: 0em;
+
+//     }
+// }
+// .login__icons{
+//     display: flex;
+//     padding-top: 47px;
+//     .facebook{
+//     border-radius: 8px;
+
+//         padding-top: 25px;
+//         align-items: center;
+//         text-align: center;
+//         width: 75px;
+//         height: 75px;
+//         border: 1px solid #E2E8F0;
+//     }
+//     .apple{
+//         margin-left: 15px;
+//     border-radius: 8px;
+
+//         padding-top: 25px;
+//         align-items: center;
+//         text-align: center;
+//         width: 75px;
+//         height: 75px;
+//         border: 1px solid #E2E8F0;
+//     }
+//     .google{
+//     border-radius: 8px;
+
+//         margin-left: 15px;
+//         padding-top: 25px;
+//         align-items: center;
+//         text-align: center;
+//         width: 75px;
+//         height: 75px;
+//         border: 1px solid #E2E8F0;
+//     }
+//     p{
+//         margin-top: 20px;
+//     }
+// }
+
+// .login__input{
+//     margin-left: 52px;
+//     margin-top: 42px;
+//     p{
+// font-size: 14px;
+// font-weight: 400;
+// line-height: 20px;
+// letter-spacing: 0em;
+// margin-top: -15px;
+//     }
+// }
+// .group1{
+//     input{
+//         border: 1px solid #E2E8F0;
+//         width: 87%;
+//         height: 50px;
+//         border-radius: 8px;
+// }
+// }
+// .group2{
+//     input{
+//         margin-top: 44px;
+//         border: 1px solid #E2E8F0;
+//         width: 87%;
+//         height: 50px;
+//         border-radius: 8px;
+// }
+// }
+
+// .sign__btn{
+//     background-color: #2D3748;
+//     color: white;
+//     margin-top: 78px;
+//     padding: 10px;
+//     width: 87%;
+//     border-radius: 8px;
+//     cursor: pointer;
+// }
+
+// .log__out{
+//     margin-left: 80px;
+//     margin-top: 22px;
+//     p{
+// font-size: 14px;
+// color: #A0AEC0;
+// font-weight: 400;
+// line-height: 20px;
+// letter-spacing: 0em;
+// span{
+//     color: #2D3748;
+//     cursor: pointer;
+// }
+//     }
+// }
+// .password{
+//     transform: translateY(88px);
+//     -webkit-transform: translateY(88px);
+//     -moz-transform: translateY(88px);
+//     -ms-transform: translateY(88px);
+//     -o-transform: translateY(88px);
+// }
+
+// .log__wrap{
+//     align-items: center;
+//     justify-content: center;
+//     display: flex;
+// }

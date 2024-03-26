@@ -1,0 +1,32 @@
+.loginfoot{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 138px;
+    flex-direction: column;
+    .log__foot{
+        display: flex;
+        gap: 52px;
+        color: #8392AB;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+
+}
+.foot__i{
+    padding-top: 25px;
+    color: #8392AB;
+    img{
+        margin-right: 28px; 
+    }
+}
+
+.foot__p{
+    margin-top: 32px;   
+    color: #8392AB;
+    text-align: center;
+
+}

@@ -1,0 +1,80 @@
+.login2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+
+.left{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .signin{
+    padding: 20px 50px;
+    .text{
+      h1{
+        color: linear-gradient(135deg, #21D4FD 0%, #2152FF 100%);
+        font-size: 36px;
+        line-height: 42px;
+      }
+      p{
+        color: grey;
+        padding-top: 10px;
+        font-size: 20px;
+        line-height: 23px;
+      }
+    }
+  }
+}
+
+form{
+  margin-top: 50px;
+  input{
+    width: 361px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+  }
+  p{
+    margin-top: 10px;
+  }
+  
+  div{
+    margin-top: 50px;
+  }
+  button{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(135deg, #21D4FD 0%, #2152FF 100%);
+
+  }
+  .bottom{
+    display: flex;
+  }
+}
+
+
+span{
+  display: block;
+  margin-top: 7px;
+}
+
+.right{
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  img{
+    width: 100%;
+    transform: rotate(25deg);
+    z-index: 1;
+    border-radius: 80px;
+  }
+}
+
+}

@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+  p{
+    color: grey;
+  }
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+header{
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 20px 27px 0px #0000000D;
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 80px;
+  padding-top: 30px;
+  box-shadow: 5px 5px 5px 5px rgb(212, 212, 212);
+}
+
+.nav__list{
+  display: flex;
+  gap: 10px;
+}
+
+.download__btn{
+  width: 164px;
+  height: 34px;
+  background: linear-gradient(135deg, #3A416F 0%, #141727 100%);
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: -10px;
+  border: none;
+}
+
+h1{
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+}
+
+.nav__item{
+  display: flex;
+  margin-left: 10px;
+  img{
+    width: 14px;
+    height: 14px;
+  }
+  p{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
